@@ -1,0 +1,37 @@
+.details {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-template-rows: repeat(4, min-content);
+    padding-bottom: 6vh;
+  }
+  
+  .img {
+      height: 400px;
+      grid-row: 1 / -1;
+      align-self: self-start;
+      justify-self: center;
+      margin: 6vh 2vw 0 2vw;
+  }
+  
+  .info {
+    margin-top: 3vh;
+    color: #393e46;
+  }
+  
+  .button {
+      border: 5px solid #222831; 
+      padding: 10px 20px;
+      display: inline-block;
+      width: max-content;
+      text-decoration: none;
+      color: #222831;
+      transition: all .2s;
+      text-transform: uppercase;
+    font-weight: 600;
+  }
+  
+  .button:hover {
+      background-color: #0018F8;
+      color: #fefefe;
+  }
+  
